@@ -5,7 +5,7 @@ This demo application demonstrates how user authentication can be added to a sim
 ## Dependencies
 
 * [MongoDB](http://www.mongodb.org)
-* [Node.js](http://nodejs.org/), including express and mongoskin
+* [Node.js](http://nodejs.org), including [express](http://expressjs.com) and [mongoskin](https://github.com/kissjs/node-mongoskin)
 * [UserApp](https://www.userapp.io)
 
 ## Getting started
@@ -30,6 +30,7 @@ Then download and install npm: [https://npmjs.org](https://npmjs.org).
 
 ### Set your App Id
 Open server.js and app/js/app.js and insert your own UserApp App Id (search for "YOUR-USERAPP-APP-ID").
+[How do I find my App Id?](https://help.userapp.io/customer/portal/articles/1322336-how-do-i-find-my-app-id-)
 
 ### Start the Node.js server
     
@@ -41,15 +42,15 @@ Open a new browser tab and go to [http://localhost:3000](http://localhost:3000).
 ## How it works
 
 * UserApp handles the sessions which are created from the client side using JavaScript.
-* When a user logs in a token is returned from UserApp.
-* When retrieving and persisting todos, the token is sent along with the request to the NodeJS backend.
-* The nodeJS server check that the token is valid and uses the user's id to get and save the todos.
+* When a user logs in a new session token is returned from UserApp.
+* When retrieving and persisting todos, the token is sent along with the request to the Node.js backend.
+* The Node.js server checks that the token is valid and uses the user's id to get and store the todos.
 * The server caches these requests up to 10 minutes. This way minimal requests and roundtrips are done to UserApp.
 
 ## What to do next?
 
 * Create a permission that give users the right to create new todos, or just read them.
-* Add functionality to reset the password. Hint: this must be done from the NodeJS backend.
+* Add functionality to reset the password. Hint: this must be done from the Node.js backend.
 
 ## License
 
@@ -59,7 +60,7 @@ TodoMVC:
 
 MIT © Addy Osmani, Sindre Sorhus, Pascal Hartig, Stephen Sawchuk.
 
-NodeJS backend and incremental changes:
+Node.js backend and incremental changes:
 
 MIT © Timothy E. Johansson
 
