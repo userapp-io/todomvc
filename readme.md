@@ -1,6 +1,6 @@
 # [UserApp](https://www.userapp.io) Demo based on [TodoMVC](http://todomvc.com) with AngularJS and NodeJS
 
-> This demo application demonstrates how user authentication can be added to a simple web app using UserApp. It's based on the AngularJS version of TodoMVC and changes has been made to enable user log in, sign up and persistant storage of the todos with NodeJS.
+This demo application demonstrates how user authentication can be added to a simple web app using UserApp. It's based on the AngularJS version of TodoMVC and changes has been made to enable user log in, sign up and persistant storage of the todos with NodeJS.
 
 ## Dependencies
 
@@ -31,5 +31,17 @@
 
 * Create a permission that give users the right to create new todos, or just read them.
 * Add functionality to reset the password. Hint: this must be done from the NodeJS backend.
+
+## License
+
+Everything in this repo is MIT License unless otherwise specified.
+
+TodoMVC:
+
+MIT © Addy Osmani, Sindre Sorhus, Pascal Hartig, Stephen Sawchuk.
+
+NodeJS backend and incremental changes:
+
+MIT © Timothy E. Johansson
 
 _If you find any bugs or have any issues getting the demo app to run, please [let us know](https://github.com/userapp-io/todomvc/issues)._
