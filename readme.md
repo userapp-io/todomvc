@@ -54,6 +54,15 @@ Open a new browser tab and go to [http://localhost:3000](http://localhost:3000).
 * Create a permission that give users the right to create new todos, or just read them.
 * Add functionality to reset the password. Hint: this must be done from the Node.js backend.
 
+## Useful links
+
+* [Sign up](https://app.userapp.io/#/sign-up/) or [log in](https://app.userapp.io) to UserApp
+* [UserApp Website](https://www.userapp.io)
+* [UserApp Documentation](https://app.userapp.io/#/docs/)
+* [UserApp Help Center](https://help.userapp.io)
+* [TodoMVC Website](http://todomvc.com)
+* [AngularJS Website](http://angularjs.org)
+
 ## License
 
 Everything in this repo is MIT License unless otherwise specified.
