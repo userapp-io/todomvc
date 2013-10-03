@@ -3,7 +3,7 @@ Everything in this repo is MIT License unless otherwise specified.
 TodoMVC:
 Copyright (c) Addy Osmani, Sindre Sorhus, Pascal Hartig, Stephen Sawchuk.
 
-NodeJS backend and incremental changes:
+Node.js backend and incremental changes:
 Copyright (c) Timothy E. Johansson
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of

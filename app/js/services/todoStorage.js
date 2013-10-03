@@ -2,7 +2,7 @@
 'use strict';
 
 /**
- * Services that persists and retrieves TODOs from the NodeJS backend if there is an active session
+ * Services that persists and retrieves TODOs from the Node.js backend if there is an active session
  */
 todomvc.factory('todoStorage', function ($http, session) {
 	var data = { todos: [] };
