@@ -1,23 +1,42 @@
-# [UserApp](https://www.userapp.io) Demo based on [TodoMVC](http://todomvc.com) with AngularJS and NodeJS
+# UserApp demo based on TodoMVC with AngularJS and Node.js
 
-This demo application demonstrates how user authentication can be added to a simple web app using UserApp. It's based on the AngularJS version of TodoMVC and changes has been made to enable user log in, sign up and persistant storage of the todos with NodeJS.
+This demo application demonstrates how user authentication can be added to a simple web app using [UserApp](https://www.userapp.io). It's based on the AngularJS version of [TodoMVC](http://todomvc.com/) and changes has been made to enable user log in, sign up and persistant storage of the todos with Node.js and MongoDB.
 
 ## Dependencies
 
-* MongoDB
-* NodeJS, including express and mongoskin
-* UserApp
+* [MongoDB](http://www.mongodb.org)
+* [Node.js](http://nodejs.org/), including express and mongoskin
+* [UserApp](https://www.userapp.io)
 
 ## Getting started
 
-* [Sign up](https://app.userapp.io/#/sign-up/) for a UserApp account
-* Download the the demo application to your computer
-* Install MongoDB
-* Install NodeJS and npm
-* Install the needed NodeJS libraries with npm (express and mongoskin)
-* Open server.js and app/js/app.js and insert your own UserApp App Id (search for "YOUR-USERAPP-APP-ID")
-* Run the NodeJS backend: node server.js
-* Open a new browser tab and go to http://localhost:3000
+### Sign up for UserApp
+Go to [https://app.userapp.io/#/sign-up/](https://app.userapp.io/#/sign-up/) and sign up for a UserApp account.
+
+### Download the demo app
+[Download](https://github.com/userapp-io/todomvc/archive/master.zip) the demo application to your computer and unzip it.
+
+### Install MongoDB
+Install the document database MongoDB. You find all the instructions here: [http://docs.mongodb.org/manual/installation/](http://docs.mongodb.org/manual/installation/).
+
+### Install Node.js and npm
+Download and install Node.js from here: [http://nodejs.org](http://nodejs.org).
+Then download and install npm: [https://npmjs.org](https://npmjs.org).
+
+### Install the Node.js libraries
+    
+    # npm install express
+    # npm install mongoskin
+
+### Set your App Id
+Open server.js and app/js/app.js and insert your own UserApp App Id (search for "YOUR-USERAPP-APP-ID").
+
+### Start the Node.js server
+    
+    node server.js
+
+### Test it
+Open a new browser tab and go to [http://localhost:3000](http://localhost:3000).
 
 ## How it works
 
