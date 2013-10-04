@@ -72,7 +72,7 @@ todomvc.factory('session', function ($http, $rootScope) {
 		getUser: function(callback) {
 			var that = this;
 
-			UserApp.User.get(null, function(error, result) {
+			UserApp.User.get({ user_id: "self" }, function(error, result) {
 				if (!error) {
 					angular.extend(user, result[0]);
 				}

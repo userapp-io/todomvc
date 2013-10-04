@@ -10,7 +10,7 @@
 var todomvc = angular.module('todomvc', []).run(function($rootScope, session, todoStorage) {
 	// Initialize UserApp
 	UserApp.initialize({
-		appId:'5249fe9e9da83' // YOUR-USERAPP-APP-ID
+		appId:'YOUR-USERAPP-APP-ID' // YOUR-USERAPP-APP-ID
 	});
 
 	// The logged in user

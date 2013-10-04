@@ -6,7 +6,7 @@ var application_root = __dirname,
 
 var app = express();
 var db = mongoskin.db('localhost:27017/todo', { safe: true });
-var appId = '5249fe9e9da83'; // YOUR-USERAPP-APP-ID
+var appId = 'YOUR-USERAPP-APP-ID'; // YOUR-USERAPP-APP-ID
 
 app.configure(function () {
 	app.use(express.bodyParser());
@@ -28,7 +28,7 @@ var User = {
 			https.request({
 				method: 'POST',
 				host: 'api.userapp.io',
-				path: '/v1/user.get?app_id=' + appId + '&token=' + token
+				path: '/v1/user.get?user_id=self&app_id=' + appId + '&token=' + token
 			}, function(response) {
 				var str = '';
 
