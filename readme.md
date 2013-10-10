@@ -2,7 +2,7 @@
 
 ## UserApp demo based on TodoMVC with AngularJS and Node.js
 
-This demo application demonstrates how user authentication can be added to a simple web app using [UserApp](https://www.userapp.io). It's based on the AngularJS version of [TodoMVC](http://todomvc.com/) and changes has been made to enable user log in, sign up and persistant storage of the todos with Node.js and MongoDB.
+This demo application demonstrates how user authentication can be added to a simple web app using [UserApp](https://www.userapp.io). It's based on the AngularJS version of [TodoMVC](http://todomvc.com/) and changes has been made to enable user log in, sign up and persistent storage of the todos with Node.js and MongoDB.
 
 ## Dependencies
 
